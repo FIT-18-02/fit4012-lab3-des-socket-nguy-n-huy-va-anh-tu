@@ -2,7 +2,7 @@
 
 ## Thông tin nhóm
 - Thành viên 1: Phạm Anh Tú
-- Thành viên 2: TODO_STUDENT
+- Thành viên 2: Nguyễn Văn huy
 
 ## Assets
 Nội dung bản tin gốc (Plaintext).
@@ -19,4 +19,4 @@ Bọc luồng Socket bằng lớp bảo mật TLS/SSL.
 Sử dụng các thuật toán mạnh hơn như AES-256.
 Sử dụng giao thức trao đổi khóa Diffie-Hellman để không phải gửi khóa trực tiếp qua mạng.
 ## Residual risks
-TODO_STUDENT: Nêu ít nhất 1 rủi ro còn lại.
+Thỏa hiệp tại thiết bị đầu cuối (Endpoint Compromise): Mặc dù dữ liệu trên đường truyền mạng đã được bảo vệ an toàn tuyệt đối nhờ TLS và các thuật toán mạnh, nhưng nếu máy tính của Sender hoặc Receiver bị nhiễm mã độc (malware, spyware, keylogger), kẻ tấn công vẫn có thể đánh cắp bản tin ở dạng bản rõ (plaintext) ngay từ trong bộ nhớ RAM hoặc ghi lại thao tác bàn phím trước khi hệ thống kịp thực hiện quá trình mã hóa.
