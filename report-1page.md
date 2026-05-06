@@ -1,20 +1,19 @@
 # Report 1 page - Lab 3
 
 ## Thông tin nhóm
-- Thành viên 1: TODO_STUDENT
-- Thành viên 2: TODO_STUDENT
+- Thành viên 1: Phạm Anh Tú
+- Thành viên 2: ?
 
 ## Mục tiêu
-TODO_STUDENT: Viết 4-6 dòng mô tả mục tiêu của bài lab.
+Xây dựng hệ thống gửi/nhận dữ liệu sử dụng DES-CBC qua Socket để hiểu về quy trình đóng gói dữ liệu và các lỗ hổng bảo mật tiềm tàng.## Phân công thực hiện
 
-## Phân công thực hiện
-TODO_STUDENT: Mô tả ai phụ trách sender, ai phụ trách receiver, ai phụ trách test/log/threat model, và phần làm chung.
-
+Phạm Anh Tú phụ trách: Thiết kế cấu trúc Header, lập trình sender.py, xây dựng hàm mã hóa và đệm dữ liệu trong des_socket_utils.py
+Nguyễn Văn Huy phụ trách:
 ## Cách làm
-TODO_STUDENT: Mô tả cách triển khai Sender, Receiver, mã hoá DES-CBC, và cách kiểm thử.
+Sử dụng thư viện pycryptodome để xử lý DES; sử dụng struct.pack để tạo Header 20 byte theo thứ tự: Key + IV + Length
 
 ## Kết quả
 TODO_STUDENT: Tóm tắt kết quả chạy, ảnh/log minh chứng, và ca kiểm thử quan trọng.
 
 ## Kết luận
-TODO_STUDENT: Rút ra bài học kỹ thuật và bài học bảo mật từ bài lab.
+Hệ thống chạy ổn định nhưng cần cải thiện về phương thức truyền khóa để đảm bảo an toàn thực tế.

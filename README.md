@@ -12,16 +12,16 @@ Bài lab bám theo luồng hệ thống trong file hướng dẫn: Sender tạo 
 - Khi demo, giảng viên có thể hỏi chéo bất kỳ thành viên nào về **sender**, **receiver**, **DES-CBC**, **padding**, **threat model** và **ethics**.
 
 ## Team members
-- **Thành viên 1**: TODO_MEMBER_1 - MSSV: TODO_MEMBER_1_ID
-- **Thành viên 2**: TODO_MEMBER_2 - MSSV: TODO_MEMBER_2_ID
+- **Thành viên 1**: Phạm Anh Tú - MSSV: 1871020615
+- **Thành viên 2**: Nguyễn Văn Huy - MSSV: 1871020313
 
 ## Task division
-- **Thành viên 1 phụ trách chính**: TODO_ROLE_MEMBER_1
+- **Thành viên 1 phụ trách chính**: phụ trách chính phần Sender và Mã hóa DES-CBC.
 - **Thành viên 2 phụ trách chính**: TODO_ROLE_MEMBER_2
 - **Phần làm chung**: TODO_SHARED_WORK
 
 ## Demo roles
-- **Bạn nào demo Sender / gói tin / log gửi**: TODO_DEMO_ROLE_1
+- **Bạn nào demo Sender / gói tin / log gửi**: Phạm Anh Tú
 - **Bạn nào demo Receiver / giải mã / log nhận**: TODO_DEMO_ROLE_2
 - **Cả hai cùng trả lời threat model và ethics**: TODO_DEMO_ROLE_SHARED
 
